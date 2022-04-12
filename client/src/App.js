@@ -30,8 +30,8 @@ export function App () {
         <AppBar position="static">
             <Toolbar>
                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"><MenuIcon /></IconButton>
-                <Typography variant="h6" className={classes.title}>Resume Builder</Typography>
-                <Button color="inherit">Login</Button>
+                <Typography variant="h6" className={classes.title}>Resumator</Typography>
+                
             </Toolbar>
         </AppBar>
         <Resume />
