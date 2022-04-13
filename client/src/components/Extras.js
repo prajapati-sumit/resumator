@@ -1,3 +1,4 @@
+//imports
 import React, {Component} from 'react';
 import {TextField, Button, Container, Divider} from '@material-ui/core';
 import {Card, CardHeader, CardContent} from '@material-ui/core';
@@ -11,6 +12,7 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import {Row, Col} from 'react-bootstrap';
 import {Paper, withStyles, Grid} from '@material-ui/core';
 
+//css for visualization
 const styles = theme => ({
   margin: {
     margin: theme.spacing.unit * 1.5,
@@ -20,6 +22,7 @@ const styles = theme => ({
   },
 });
 
+//main component- takes extra curricular details such as skills, languages, Interests
 class Experience extends Component {
   continue = e => {
     e.preventDefault ();

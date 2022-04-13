@@ -1,3 +1,4 @@
+//imports
 import React, {Component} from 'react';
 import {TextField, Button, Container, Divider} from '@material-ui/core';
 import {Card, CardHeader, CardContent} from '@material-ui/core';
@@ -12,6 +13,7 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import {Row, Col} from 'react-bootstrap';
 import {Paper, withStyles, Grid} from '@material-ui/core';
 
+//css for visualization
 const styles = theme => ({
   margin: {
     margin: theme.spacing.unit * 1.5,
@@ -21,6 +23,7 @@ const styles = theme => ({
   },
 });
 
+//main component- takes the info of the projects that the person has done so far
 class Projects extends Component {
   continue = e => {
     e.preventDefault ();
@@ -32,6 +35,7 @@ class Projects extends Component {
     this.props.prevStep ();
   };
 
+  // send request to resume making engine to get resume
   createAndDownloadPDF = () => {
     axios
       .post ('/create-pdf', this.state)

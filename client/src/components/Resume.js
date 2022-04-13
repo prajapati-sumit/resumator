@@ -5,6 +5,8 @@ import Projects from './Projects';
 import Experience from './Experience';
 import Extras from './Extras';
 
+
+// the primary component of the application- it uses a switch statement to render the different components in a single page
 export class Resume extends Component {
   state = {
     step: 1,
@@ -206,6 +208,7 @@ export class Resume extends Component {
       interest5,
       interest6,
     };
+    //switch statements for rendering each page
     switch (step) {
       case 1:
         return (
