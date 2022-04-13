@@ -1,3 +1,4 @@
+//import
 import React, {Component} from 'react';
 import {TextField, Button, Container, Divider} from '@material-ui/core';
 import {Card, CardHeader, CardContent} from '@material-ui/core';
@@ -10,6 +11,8 @@ import {Row, Col} from 'react-bootstrap';
 import {Paper, withStyles, Grid} from '@material-ui/core';
 import 'date-fns';
 
+
+//css for visualization
 const styles = theme => ({
   margin: {
     margin: theme.spacing.unit * 1.5,
@@ -19,6 +22,8 @@ const styles = theme => ({
   },
 });
 
+
+//main component- has the form for the education section that takes the education details of the individual
 class Profile extends Component {
   continue = e => {
     e.preventDefault ();

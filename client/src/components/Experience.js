@@ -1,3 +1,4 @@
+//imports
 import React, {Component} from 'react';
 import {TextField, Button, Container, Divider} from '@material-ui/core';
 import {Card, CardHeader, CardContent} from '@material-ui/core';
@@ -14,6 +15,7 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import {Row, Col} from 'react-bootstrap';
 import {Paper, withStyles, Grid} from '@material-ui/core';
 
+//css for visualization
 const styles = theme => ({
   margin: {
     margin: theme.spacing.unit * 1.5,
@@ -23,6 +25,8 @@ const styles = theme => ({
   },
 });
 
+
+//main component- takes the experience details of the person
 class Experience extends Component {
   continue = e => {
     e.preventDefault ();
