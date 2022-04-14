@@ -6,6 +6,11 @@
 4. **React-Bootstrap** for styling.
 5. <3
 
+# Introduction
+Via Resumator, we  created a web application that gives the users the freedom and ease to make their own resume just by entering the details in sort of stylized forms. The user would enter the various sets of details one by one and get the resume.
+
+![alt text for screen readers](client/public/resumator.png "Resumator").
+
 ## Setup
 
 Clone the repository:
