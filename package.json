@@ -1,7 +1,7 @@
 {
-	"name": "resume-builder",
+	"name": "resumetor",
 	"version": "1.0.0",
-	"description": "Resume Builder Application using ReactJS(frontend) and NodeJS(backend)",
+	"description": "Resume Builder Application using ReactJS, ExpressJS and NodeJS",
 	"main": "server.js",
 	"scripts": {
 		"client-install": "npm install --prefix client",
@@ -10,8 +10,7 @@
 		"client": "npm start --prefix client",
 		"dev": "concurrently \"npm run server\" \"npm run client\""
 	},
-	"author": "Girish Thatte",
-	"license": "MIT",
+	
 	"dependencies": {
 		"body-parser": "^1.19.0",
 		"concurrently": "^5.0.1",
